@@ -92,13 +92,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">E-Commerce Web App</h3>
+              <h3 className="text-xl font-bold mb-2">Experience Melbourne Website</h3>
               <p className="text-gray-400 mb-4">
-                Full-stack e-commerce with modern UI, secure payment
-                integration, and customizable product inventory.
+                Responsive, accessible, SEO-optimized static site about Melbourne — mobile-first, W3C-validated & WCAG-tested
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Next.js", "TypeScript", "Stripe", "PostgreSQL"].map(
+                {["HTML", "CSS", "W3C Validator", "WAVE Accessibility", "Chrome DevTools", ].map(
                   (tech) => (
                     <span
                       key={tech}
@@ -135,13 +134,12 @@ export const Projects = () => {
               transition-all
             "
             >
-              <h3 className="text-xl font-bold mb-2">Real-Time Chat App</h3>
+              <h3 className="text-xl font-bold mb-2">Portfolio</h3>
               <p className="text-gray-400 mb-4">
-                Scalable chat platform supporting real-time messaging, presence,
-                and group chat features.
+                A portfolio website made with React and Tailwind CSS to show my skills and projects.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                {["Socket.IO", "Express", "React", "Redis"].map((tech, key) => (
+                {["HTML", "Javascript", "React basic","vite", "git"].map((tech, key) => (
                   <span
                     key={key}
                     className="
