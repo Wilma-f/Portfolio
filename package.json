@@ -1,16 +1,16 @@
 {
-  "homepage": "https://Wilma-f.github.io/Portfolio",
+  "homepage": "https://wilma-f.github.io/Portfolio",
   "name": "my_portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.11",
