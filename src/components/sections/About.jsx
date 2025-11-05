@@ -69,7 +69,7 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-900 space-y-2">
                 <li>
-                  <strong> Master of Computer Applications  </strong> - Nitte  University
+                   Master of Computer Applications - Nitte  University
                 </li>
                 <li>
                   Certificate III in Information Technology- Chisholm Institute          
